@@ -11,10 +11,11 @@ p{
 .visitka{
     width: 1100px;
     margin: 0 auto;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     padding: 30px;
     padding-top: 0px;
     height: max-content;
+        box-shadow: -1px 1px 7px 5px #e6dfdf;
 }
 .visitka__inner-top {
     display: flex;
@@ -52,6 +53,7 @@ p{
 .contact{
     font-size: 25px;
     width: 50%;
+    width: max-content;
 }
 
 .jobtitle{
@@ -75,30 +77,114 @@ p{
         display: block;
         width: 98%;
         height: 98vh;
-        border: 1px solid black;
-        display: flex;
+        /* border: 1px solid black; */
         justify-content: space-around;
         position: relative;
+        box-shadow: -1px 1px 7px 5px #e6dfdf;
     }
     
+
 
     .visitka__mobile-top{
-
+        font-size: 20px;
+        height: 49vh;
+        width: 100%;
+        /* background: rgba(8, 0, 255, 0.138); */
+        display: flex;
     }
-    
+
+
+    .visitka__box-mobile-top{
+        /* border: 1px solid green; */
+        width: 33%;
+        height: 70vh;
+    }
+
+    .visitka__box-mobile-top:nth-child(1) .contactm{
+        transform: rotate(90deg);
+        margin-top: 20px;
+    }
+    .visitka__box-mobile-top:nth-child(2) .location{
+        transform: rotate(90deg);
+        margin-top: 20px;
+    }
 
 
 
 
+    .visitka__box-mobile-top .location{
+        width: max-content;
+        position: absolute;
+        top: 86px;
+        left: 89px;
+    }
 
 
+    .visitka__box-mobile-top .contactm{
+        width: max-content;
+        position: absolute;
+        top: 188px;
+        right: 66px;
+    }
 
-
+    .visitka__box-mobile-top:nth-child(3) img{
+        transform: rotate(90deg);
+        margin-top: 20px;
+        width: 150px;
+        overflow: hidden;
+    }
 
     .visitka__mobile-butom{
+        height: 49vh;
+        width: 100%;
+        /* background: rgba(255, 0, 68, 0.075); */
+        display: flex;
+    }
+
+    .visitka__box-mobile-butom{
+        /* border: 1px solid green; */
+        width: 50%;
+        height: 49vh;
+    }
+    .visitka__box-mobile-butom{
+        position: relative;
+    }
+
+    .visitka__box-mobile-butom:nth-child(1) .btn__inner{
+        transform: rotate(90deg);
+    }
+    .visitka__box-mobile-butom:nth-child(2) .fullname__inner{
+        transform: rotate(90deg);
+    }
+
+
+
+
+    .btn__inner{
+        font-size: 20px;
+        margin-top: 100px;
+        position: absolute;
+        bottom: 167px;
+    width: 273px;
+    position: absolute;
+    right: -13px;
+    top: 97px;
+    text-align: -webkit-right;
+    }
+
+    .fullname__inner{
+        font-size: 37px;
+        position: absolute;
+        top: 22px;
+        font-family: verdana;
+        right: -126px;
 
     }
 
+    .fullname__inner span{
+        width: max-content;
+        position: absolute;
+    }
 
  }
 
