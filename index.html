@@ -103,6 +103,19 @@
       document.body.style.position = "static";
     }
   });
+
+
+    function preventOrientationChange() {
+      document.body.style.width = window.innerWidth + 'px';
+      document.body.style.height = window.innerHeight + 'px';
+    }
+
+    window.addEventListener('resize', preventOrientationChange);
+    window.addEventListener('orientationchange', preventOrientationChange);
+
+    // Initial call to set the correct size
+    preventOrientationChange();
+        
 </script>
 
 </body>
