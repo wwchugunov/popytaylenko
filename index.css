@@ -124,7 +124,8 @@ p{
         width: max-content;
         position: absolute;
         top: 188px;
-        right: 66px;
+                right: 88px;
+
     }
 
     .visitka__box-mobile-top:nth-child(3) img{
