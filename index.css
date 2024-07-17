@@ -76,6 +76,7 @@ p{
     .visitka__mobile{
         display: block;
         width: 98%;
+        max-width: 400px;
         height: 98vh;
         /* border: 1px solid black; */
         justify-content: space-around;
