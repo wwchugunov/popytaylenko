@@ -8,6 +8,21 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+@media screen and (orientation:landscape) {
+  body {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
+
 .visitka{
     width: 1100px;
     margin: 0 auto;
