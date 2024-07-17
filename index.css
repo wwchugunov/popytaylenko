@@ -130,10 +130,12 @@ p{
     }
 
     .visitka__box-mobile-top:nth-child(3) img{
-        transform: rotate(90deg);
-        margin-top: 20px;
-        width: 150px;
+transform: rotate(90deg);
+        margin-top: 22px;
+        width: 165px;
         overflow: hidden;
+        right: 31px;
+        margin-left: -17px;
     }
 
     .visitka__mobile-butom{
@@ -179,7 +181,7 @@ p{
         position: absolute;
         top: 22px;
         font-family: verdana;
-                right: -79px;
+                right: -90px;
 
     }
 
