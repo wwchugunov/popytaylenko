@@ -1,0 +1,105 @@
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.visitka{
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 30px;
+    padding-top: 0px;
+    height: max-content;
+}
+.visitka__inner-top {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: center; 
+
+}
+
+.fullname {
+    text-align: end;
+    font-size: 40px;
+}
+
+
+.logo img{
+    width: 250px;
+}
+
+
+.visitka__inner-center {
+    font-size: 25px;
+    line-height: 1; 
+}
+
+
+
+.visitka__inner-footer{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    font-size: 25px;
+    width: 50%;
+}
+
+.jobtitle{
+    font-size: 35px;
+    text-align: end;
+}
+
+
+.visitka__mobile{
+    display: none;
+}
+@media (max-width: 400px) {
+
+
+    .visitka{
+        display: none;
+    }
+
+
+    .visitka__mobile{
+        display: block;
+        width: 98%;
+        height: 98vh;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    
+
+    .visitka__mobile-top{
+
+    }
+    
+
+
+
+
+
+
+
+
+
+    .visitka__mobile-butom{
+
+    }
+
+
+ }
+
+ 
