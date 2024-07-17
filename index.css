@@ -82,7 +82,7 @@ body {
 .visitka__mobile{
     display: none;
 }
-@media screen and (orientation:landscape) {
+@media (max-width: 900px) {
 
 
     .visitka{
